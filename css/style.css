@@ -19,12 +19,12 @@
 }
 
 html{
-    font-size: 62.5%;
+    font-size: 64%;
     overflow-x: hidden;
 }
 
 section{
-    padding: 10rem 9% 2rem;
+    padding: 3rem 9% 4rem;
     scroll-margin-top: 6rem;
 }
 body{
@@ -83,6 +83,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 }
 
 .home-img img{
@@ -206,7 +207,8 @@ span{
     background: #1D1C1B;
     padding: 3rem 3rem 4rem 3rem;
     border-radius: 2rem;
-    text-align: center; 
+    text-align: center;
+    color: white; 
     border: .2rem solid var(--bg-color);
     transition: .5s ease;
 }
@@ -224,8 +226,10 @@ span{
 
 }
 .services-box p {
-    font-size:1.6rem;
+    font-size: 14px;
     margin: 1rem;
+    color: #cccccc;
+    line-height: 2.5rem;
 }
 
 .portfolio{
@@ -319,82 +323,13 @@ span{
     display: list-item;
 }
 
-/* --- ancien STYLE POUR LES CARTES DE PROJET --- */
-.project-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 30px;
-    background-color: #1f1f1f;
-    color: white;
-    border-radius: 16px;
-    padding: 30px;
-    max-width: 1000px;
-    margin: 40px auto;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  }
-  
-  .project-text {
-    flex: 1;
-  }
-  
-  .project-text h3 {
-    font-size: 24px;
-    margin-bottom: 12px;
-  }
-  
-  .project-text p {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    color: #ccc;
-  }
-  
-  .project-features {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 20px;
-  }
-  
-  .project-features li {
-    background-color: #3a3a3a;
-    border-radius: 20px;
-    padding: 10px 16px;
-    margin-bottom: 10px;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .view-project {
-    background-color: black;
-    color: white;
-    padding: 12px 20px;
-    border-radius: 30px;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  .project-images {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .project-images img {
-    width: 200px;
-    height: auto;
-    border-radius: 12px;
-    object-fit: cover;
-  }
+
   
 /* --- STYLE POUR LES CARTES DE PROJET --- */
   .portfolio-container {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 8px;
     padding: 20px;
   }
   
@@ -407,8 +342,8 @@ span{
     overflow: hidden;
     margin-bottom: 40px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
-    padding: 24px;
-    gap: 24px;
+    padding: 48px;
+    gap: 14px;
     align-items: center;
   }
   
@@ -425,6 +360,9 @@ span{
   .project-text p {
     font-size: 16px;
     line-height: 1.6;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #ccc;
   }
   
   .project-features {
@@ -434,8 +372,14 @@ span{
   }
   
   .project-features li {
-    margin-bottom: 6px;
-    font-size: 15px;
+    background-color: #3a3a3a;
+    border-radius: 20px;
+    padding: 10px 16px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
   
   .view-project {
@@ -445,7 +389,7 @@ span{
     border: none;
     color: white;
     font-weight: bold;
-    border-radius: 6px;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
   }
